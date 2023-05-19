@@ -1,0 +1,22 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @global-owner1 and @global-owner2 will be requested for
+# review when someone opens a pull request.
+*         @STS-Application/code-supervisors 
+
+# .NET Peer Reviewers Ownership
+*.cs      @STS-Application/peer-reviewers @STS-Application/code-supervisors 
+*.json    @STS-Application/peer-reviewers @STS-Application/code-supervisors 
+*.dat     @STS-Application/peer-reviewers @STS-Application/code-supervisors 
+*.config  @STS-Application/peer-reviewers @STS-Application/code-supervisors 
+*.pubxml  @STS-Application/peer-reviewers @STS-Application/code-supervisors 
+
+# Front End Reviewers Ownership
+*.js      @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
+*.vue     @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
+*.css     @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
+*.ts      @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
+*.scss    @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
+*.json    @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
+*.html    @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
+*.cshtml  @STS-Application/ui-code-reviewers @STS-Application/code-supervisors 
